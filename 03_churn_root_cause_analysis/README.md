@@ -77,13 +77,37 @@ ORDER BY overall_reason_rank ASC;
 
 ### 🔹 Strategic Churn Category Aggregation
 
-| Strategic Churn Category | Churned Customers | % of Total Churn | Total Lost Monthly Revenue |
-| :--- | :---: | :---: | :---: |
-| **Competitor Threat** | **621** | **33.23%** | **$46,600.80** |
-| **Customer Service & Support** | **587** | **31.40%** | **$43,288.20** |
-| **Personal & Other Reasons** | 315 | 16.86% | $23,169.30 |
-| **Pricing & Financial Friction** | 199 | 10.64% | $15,389.90 |
-| **Product & Network Quality** | 147 | 7.86% | $10,682.60 |
+### 🔹 Strategic Churn Category Aggregation (Macro Triage)
+
+* **SQL Script:** 🔗 [`strategic_churn_category_summary.sql`](./strategic_churn_category_summary.sql)
+* **Output Data:** 📄 [`strategic_churn_category_summary.csv`](./strategic_churn_category_summary.csv)
+
+#### SQL Implementation Logic:
+```sql
+WITH categorized_churn AS (
+    SELECT
+        `CustomerID`,
+        `Monthly Charges` AS monthly_charges,
+        CASE
+            WHEN `Churn Reason` LIKE '%Competitor%' THEN 'Competitor Threat'
+            WHEN `Churn Reason` LIKE '%Price%' OR `Churn Reason` LIKE '%charges%' OR `Churn Reason` LIKE '%Expensive%' THEN 'Pricing & Financial Friction'
+            WHEN `Churn Reason` LIKE '%Attitude%' OR `Churn Reason` LIKE '%support%' OR `Churn Reason` LIKE '%Service%' THEN 'Customer Service & Support'
+            WHEN `Churn Reason` LIKE '%network%' OR `Churn Reason` LIKE '%Device%' OR `Churn Reason` LIKE '%Reliability%' OR `Churn Reason` LIKE '%Speed%' THEN 'Product & Network Quality'
+            ELSE 'Personal & Other Reasons'
+        END AS strategic_churn_category
+    FROM telco_customer_churn
+    WHERE `Churn Value` = 1
+)
+SELECT
+    strategic_churn_category,
+    COUNT(`CustomerID`) AS churned_customers,
+    ROUND(COUNT(`CustomerID`) / SUM(COUNT(`CustomerID`)) OVER(), 4) AS pct_of_total_churn,
+    ROUND(SUM(monthly_charges), 2) AS total_lost_monthly_revenue
+FROM categorized_churn
+GROUP BY strategic_churn_category
+ORDER BY churned_customers DESC;
+
+```
 
 ---
 
