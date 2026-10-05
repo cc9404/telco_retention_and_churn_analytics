@@ -75,7 +75,7 @@ ORDER BY
 
 ---
 
-## 📊 Summary Performance Comparison (`final_output.csv`)
+## 📊 Summary Performance Comparison
 
 * **Source File:** 📄 [`final_output.csv`](./final_output.csv)
 
