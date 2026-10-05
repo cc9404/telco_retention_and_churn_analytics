@@ -7,6 +7,24 @@ The analysis evaluates customer contract lifecycles, CLTV-to-churn risk segmenta
 
 ---
 
+## 💾 Dataset Overview & Source
+
+* **Data Source:** [IBM Telco Customer Churn Dataset (Kaggle - yeanzc)](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+* **Raw Data Location:** 📁 [`dataset/Telco_customer_churn.csv`](./dataset/Telco_customer_churn.csv)
+* **Dataset Scale:** 7,043 customer records across 33 demographic, account, and behavioral attributes.
+
+### 🔹 Business Context & Attribute Architecture
+This dataset reflects a telecommunications company operating in California, capturing the full customer lifecycle, product usage, satisfaction, and reasons for churn:
+
+| Dimension Category | Core Column Examples | Analytical Utility |
+| :--- | :--- | :--- |
+| **Account & Financials** | `Contract`, `Tenure Months`, `Monthly Charges`, `Total Charges`, `Payment Method` | Formulate tenure cohort retention curves, calculate customer MRR contribution, and monitor revenue leakage. |
+| **Customer Value & Health** | `CLTV`, `Churn Score`, `Churn Value`, `Churn Label` | Build multi-dimensional value-versus-risk segmentation matrices ($3 \times 3$ NTILE matrix) to direct retention spend. |
+| **Customer Sentiment & Churn Drivers** | `Churn Category`, `Churn Reason` | Conduct root-cause Pareto diagnostics across competitive pressure, service dissatisfaction, and pricing friction. |
+| **Product & Add-on Services** | `Internet Service`, `Online Security`, `Online Backup`, `Device Protection`, `Tech Support`, `Streaming TV`, `Streaming Movies` | Evaluate cross-sell penetration and measure churn suppression lift driven by multi-product bundling. |
+
+---
+
 ## 🏗 Repository Structure & Modular Roadmap
 
 ```text
