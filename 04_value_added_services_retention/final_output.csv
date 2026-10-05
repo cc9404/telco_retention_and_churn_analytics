@@ -1,0 +1,8 @@
+service_bundle_tier,total_add_ons,total_customers,churned_customers,churn_rate,avg_monthly_charge,security_penetration,tech_support_penetration
+"0 Add-ons (Core Internet Only)",0,693,362,0.5224,58.59,0.0000,0.0000
+"1-2 Add-ons (Basic Bundle)",1,966,442,0.4576,65.57,0.1812,0.1056
+"1-2 Add-ons (Basic Bundle)",2,1033,370,0.3582,72.42,0.2856,0.2565
+"3-4 Add-ons (Intermediate)",3,1117,306,0.2739,80.13,0.4047,0.3903
+"3-4 Add-ons (Intermediate)",4,850,190,0.2235,87.83,0.4812,0.5588
+"5-6 Add-ons (Full Ecosystem)",5,569,71,0.1248,92.26,0.7030,0.8401
+"5-6 Add-ons (Full Ecosystem)",6,284,15,0.0528,99.37,1.0000,1.0000
