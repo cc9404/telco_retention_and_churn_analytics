@@ -73,7 +73,7 @@ ORDER BY overall_reason_rank ASC;
 
 ---
 
-## 📊 Summary Performance Comparison (`final_output.csv`)
+## 📊 Summary Performance Comparison
 
 ### 🔹 Strategic Churn Category Aggregation
 
