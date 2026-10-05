@@ -10,7 +10,7 @@ The analysis evaluates customer contract lifecycles, CLTV-to-churn risk segmenta
 ## 💾 Dataset Overview & Source
 
 * **Data Source:** [IBM Telco Customer Churn Dataset (Kaggle - yeanzc)](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
-* **Raw Data Location:** 📁 [`dataset/Telco_customer_churn.csv`](./dataset/Telco_customer_churn.csv)
+* **Raw Data Location:** 📄 [`Telco_customer_churn.csv`](./Telco_customer_churn.csv)
 * **Dataset Scale:** 7,043 customer records across 33 demographic, account, and behavioral attributes.
 
 ### 🔹 Business Context & Attribute Architecture
