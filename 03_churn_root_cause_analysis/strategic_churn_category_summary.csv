@@ -1,0 +1,6 @@
+derived_churn_category,churned_customer_count,pct_of_total_churn,total_lost_monthly_revenue
+"Competitor Threat",621,0.3323,46600.8
+"Customer Service & Support",587,0.3141,43288.25
+"Personal & Other Reasons",315,0.1685,23169.35
+"Pricing & Financial Friction",199,0.1065,15389.85
+"Product & Network Quality",147,0.0787,10682.6
