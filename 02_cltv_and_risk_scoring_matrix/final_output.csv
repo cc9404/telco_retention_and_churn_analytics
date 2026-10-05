@@ -1,0 +1,10 @@
+strategic_segment,cltv_tier,risk_tier,customer_count,pct_of_base,avg_cltv,avg_churn_score,avg_monthly_charge,total_monthly_revenue_at_risk,actual_churn_rate
+"Priority 1: VIP Flight Risk (Defend)","High CLTV","High Risk",713,0.1014,5650.33,81.30,71.32,50848.85,0.5792
+"Priority 2: VIP Watchlist","High CLTV","Medium Risk",812,0.1155,5703.33,59.87,66.85,54285.75,0.1059
+"Priority 3: Loyal Champions","High CLTV","Low Risk",819,0.1165,5669.27,33.57,64.96,53200.45,0.0000
+"Priority 4: Mid-Value High Risk","Mid CLTV","High Risk",742,0.1055,4550.13,82.18,70.83,52559.05,0.6375
+"Priority 5: Mid-Value Core","Mid CLTV","Medium Risk",780,0.1109,4527.98,60.09,65.56,51133.55,0.1154
+"Priority 6: Stable Mid-Value","Mid CLTV","Low Risk",822,0.1169,4541.39,32.93,62.45,51330.3,0.0000
+"Priority 7: Low-Value Churn Risk","Low CLTV","High Risk",889,0.1264,3000.89,83.17,67.43,59943.4,0.7267
+"Priority 8: Low-Value Moderate","Low CLTV","Medium Risk",752,0.1069,2979.35,61.58,58.87,44267.1,0.2141
+"Priority 9: Low-Value Low Risk","Low CLTV","Low Risk",703,0.1000,2985.40,33.63,54.19,38092.55,0.0000
