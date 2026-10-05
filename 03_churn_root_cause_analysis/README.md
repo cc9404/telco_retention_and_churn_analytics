@@ -75,8 +75,6 @@ ORDER BY overall_reason_rank ASC;
 
 ## 📊 Summary Performance Comparison (`final_output.csv`)
 
-* **Source File:** 📄 [`final_output.csv`](./final_output.csv)
-
 ### 🔹 Strategic Churn Category Aggregation
 
 | Strategic Churn Category | Churned Customers | % of Total Churn | Total Lost Monthly Revenue |
@@ -88,6 +86,8 @@ ORDER BY overall_reason_rank ASC;
 | **Product & Network Quality** | 147 | 7.86% | $10,682.60 |
 
 ---
+
+* **Source File:** 📄 [`final_output.csv`](./final_output.csv)
 
 ### 🔹 Granular Churn Reason Ranking Table
 
