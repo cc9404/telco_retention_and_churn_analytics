@@ -77,8 +77,6 @@ ORDER BY overall_reason_rank ASC;
 
 ### 🔹 Strategic Churn Category Aggregation
 
-### 🔹 Strategic Churn Category Aggregation (Macro Triage)
-
 * **SQL Script:** 🔗 [`strategic_churn_category_summary.sql`](./strategic_churn_category_summary.sql)
 * **Output Data:** 📄 [`strategic_churn_category_summary.csv`](./strategic_churn_category_summary.csv)
 
@@ -108,6 +106,18 @@ GROUP BY strategic_churn_category
 ORDER BY churned_customers DESC;
 
 ```
+
+---
+
+#### Macro Category Summary Table:
+
+| Strategic Churn Category | Churned Customers | % of Total Churn | Total Lost Monthly Revenue |
+| :--- | :---: | :---: | :---: |
+| **Competitor Threat** | **621** | **33.23%** | **$46,600.80** |
+| **Customer Service & Support** | **587** | **31.40%** | **$43,288.20** |
+| **Personal & Other Reasons** | 315 | 16.86% | $23,169.30 |
+| **Pricing & Financial Friction** | 199 | 10.64% | $15,389.90 |
+| **Product & Network Quality** | 147 | 7.86% | $10,682.60 |
 
 ---
 
