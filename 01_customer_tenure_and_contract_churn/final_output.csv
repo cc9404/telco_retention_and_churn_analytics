@@ -1,0 +1,19 @@
+contract,tenure_cohort,total_customers,churned_customers,churn_rate,total_monthly_revenue,lost_monthly_revenue,avg_monthly_charge
+Month-to-month,"00-06 Months",1413,780,0.5520,78954.4,49681.3,55.88
+Month-to-month,"07-12 Months",581,244,0.4200,37132.1,18620.15,63.91
+Month-to-month,"13-24 Months",737,278,0.3772,51081.15,21980.3,69.31
+Month-to-month,"25-36 Months",486,158,0.3251,36122.55,13416.95,74.33
+Month-to-month,"37-48 Months",316,106,0.3354,24781.5,9140.05,78.42
+Month-to-month,"49+ Months",342,89,0.2602,29222.45,8008.35,85.45
+"One year","00-06 Months",38,4,0.1053,1047.05,214.8,27.55
+"One year","07-12 Months",85,9,0.1059,3372.15,438,39.67
+"One year","13-24 Months",197,16,0.0812,8841.1,1101.35,44.88
+"One year","25-36 Months",250,20,0.0800,14524.7,1701.75,58.1
+"One year","37-48 Months",268,35,0.1306,17568.6,2819.6,65.55
+"One year","49+ Months",634,82,0.1293,50443.3,7842.95,79.56
+"Two year","00-06 Months",19,0,0.0000,610.9,0,32.15
+"Two year","07-12 Months",39,0,0.0000,1057.55,0,27.12
+"Two year","13-24 Months",90,0,0.0000,2907.6,0,32.31
+"Two year","25-36 Months",96,2,0.0208,3911.55,49.25,40.75
+"Two year","37-48 Months",178,4,0.0225,8184.4,334.9,45.98
+"Two year","49+ Months",1263,42,0.0333,85897.95,3781.15,68.01
