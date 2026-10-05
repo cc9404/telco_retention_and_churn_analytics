@@ -103,3 +103,6 @@ ORDER BY
 3. **Actionable Lifecycle Marketing Interventions:**
    * **Days 30–60 Proactive Engagement:** Trigger automated onboarding workflows, satisfaction surveys, and customer success check-ins specifically targeting Month-to-Month users prior to their 90-day mark.
    * **Month 3 Contract Migration Offer:** Deliver targeted promotional bill credits (e.g., $10 off for 6 months) to incentivize high-performing Month-to-Month users to lock into a 1-year contract before hitting the Month 6 cliff.
+4. **Payment Method Friction as a Churn Accelerator:**
+   * Beyond contract duration, cross-tabulating payment mechanisms reveals that Month-to-Month subscribers utilizing manual or un-automated methods (e.g., Electronic Check) exhibit substantially higher attrition compared to those enrolled in automatic credit card or bank draft billing. 
+   * **Action:** Bundle auto-pay enrollment incentives (e.g., $5 monthly recurring discount) directly into the onboarding funnel to reduce involuntary and friction-based churn.
