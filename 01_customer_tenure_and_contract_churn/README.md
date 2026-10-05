@@ -73,7 +73,7 @@ ORDER BY
 
 | contract | tenure_cohort | total_customers | churned_customers | churn_rate | total_monthly_revenue | lost_monthly_revenue | avg_monthly_charge |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Month-to-month** | **00-06 Months** | **1,413** | **780** | **55.20%** | **$78,954.40** | **$49,681.30** | $55.88 |
+| **Month-to-month** | 00-06 Months | 1,413 | 780 | 55.20% | $78,954.40 | $49,681.30 | $55.88 |
 | **Month-to-month** | 07-12 Months | 581 | 244 | 42.00% | $37,132.10 | $18,620.20 | $63.91 |
 | **Month-to-month** | 13-24 Months | 737 | 278 | 37.72% | $51,081.20 | $21,980.30 | $69.31 |
 | **Month-to-month** | 25-36 Months | 486 | 158 | 32.51% | $36,122.60 | $13,417.00 | $74.33 |
