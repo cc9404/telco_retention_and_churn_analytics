@@ -1,0 +1,21 @@
+overall_reason_rank,churn_reason,derived_churn_category,churned_customer_count,pct_of_total_churn,total_lost_monthly_revenue,avg_monthly_charge_lost
+1,"Attitude of support person","Customer Service & Support",192,0.1027,13980.85,72.82
+2,"Competitor offered higher download speeds","Competitor Threat",189,0.1011,14144.6,74.84
+3,"Competitor offered more data","Competitor Threat",162,0.0867,12351.75,76.25
+4,"Don't know","Personal & Other Reasons",154,0.0824,11099.05,72.07
+5,"Competitor made better offer","Competitor Threat",140,0.0749,10672.1,76.23
+6,"Attitude of service provider","Customer Service & Support",135,0.0722,10399.3,77.03
+7,"Competitor had better devices","Competitor Threat",130,0.0696,9432.35,72.56
+8,"Network reliability","Product & Network Quality",103,0.0551,7497.55,72.79
+9,"Product dissatisfaction","Personal & Other Reasons",102,0.0546,7528.65,73.81
+10,"Price too high","Pricing & Financial Friction",98,0.0524,7398.55,75.5
+11,"Service dissatisfaction","Customer Service & Support",89,0.0476,6733.25,75.65
+12,"Lack of self-service on Website","Customer Service & Support",88,0.0471,6349.65,72.16
+13,"Extra data charges","Pricing & Financial Friction",57,0.0305,4543.4,79.71
+14,Moved,"Personal & Other Reasons",53,0.0284,4131,77.94
+15,"Limited range of services","Customer Service & Support",44,0.0235,3025.25,68.76
+15,"Lack of affordable download/upload speed","Product & Network Quality",44,0.0235,3185.05,72.39
+15,"Long distance charges","Pricing & Financial Friction",44,0.0235,3447.9,78.36
+16,"Poor expertise of phone support","Customer Service & Support",20,0.0107,1443.3,72.16
+17,"Poor expertise of online support","Customer Service & Support",19,0.0102,1356.65,71.4
+18,Deceased,"Personal & Other Reasons",6,0.0032,410.65,68.44
