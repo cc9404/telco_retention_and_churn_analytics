@@ -17,8 +17,8 @@ graph LR
     classDef m3 fill:#FEF2F2,stroke:#EF4444,stroke-width:1.5px,color:#B91C1C;
     classDef m4 fill:#F0FDF4,stroke:#22C55E,stroke-width:1.5px,color:#15803D;
 
-    M1["01. When: Tenure & Contract Risk"]:::m1
-    M2["02. Who: CLTV & Risk Matrix"]:::m2
+    M1["01. When: Tenure and Contract Risk"]:::m1
+    M2["02. Who: CLTV and Risk Matrix"]:::m2
     M3["03. Why: Root Cause Analysis"]:::m3
     M4["04. How: Value-Added Bundles"]:::m4
 
