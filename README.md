@@ -15,23 +15,25 @@ Rather than treating churn as a single aggregate metric, this analytics suite op
 
 ---
 
-## 🔄 Strategic Framework & Analytical Architecture
-
-The diagram below illustrates how each analytical module feeds into the broader customer retention strategy:
+## 🔄 Strategic Analytical Framework
 
 ```mermaid
-flowchart TD
-    classDef m1 fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B;
-    classDef m2 fill:#FFF3E0,stroke:#F57C00,stroke-width:2px,color:#E65100;
-    classDef m3 fill:#FFEBEE,stroke:#D32F2F,stroke-width:2px,color:#B71C1C;
-    classDef m4 fill:#E8F5E9,stroke:#388E3C,stroke-width:2px,color:#1B5E20;
+flowchart LR
+    classDef default fill:#F8FAFC,stroke:#94A3B8,stroke-width:1.5px,color:#0F172A,font-size:12px;
+    classDef m1 fill:#EFF6FF,stroke:#3B82F6,stroke-width:2px,color:#1D4ED8;
+    classDef m2 fill:#FFF7ED,stroke:#F97316,stroke-width:2px,color:#C2410C;
+    classDef m3 fill:#FEF2F2,stroke:#EF4444,stroke-width:2px,color:#B91C1C;
+    classDef m4 fill:#F0FDF4,stroke:#22C55E,stroke-width:2px,color:#15803D;
 
-    M1["<b>Stage 1: Cohort Lifecycle Dynamics</b><br/><i>Module 01</i><br/>• 0-6 Mo Onboarding Cliff: 55.2% Churn<br/>• $49.7K/mo MRR Attrition"]:::m1
-    M2["<b>Stage 2: Value vs Risk Triage</b><br/><i>Module 02</i><br/>• 3x3 CLTV & Risk Scoring Matrix<br/>• Isolates 713 VIPs ($50.8K/mo MRR)"]:::m2
-    M3["<b>Stage 3: Root Cause Diagnostics</b><br/><i>Module 03</i><br/>• 33.2% Competitor Threat ($46.6K/mo)<br/>• 31.4% Service & Support Friction"]:::m3
-    M4["<b>Stage 4: Product-Led Defense</b><br/><i>Module 04</i><br/>• 6 Value-Added Service Bundles<br/>• 10x Churn Drop (52.2% -> 5.3%)"]:::m4
+    M1["<b>01. When</b><br>Tenure & Contract Risk"]:::m1
+    M2["<b>02. Who</b><br>CLTV & Risk Matrix"]:::m2
+    M3["<b>03. Why</b><br>Root Cause Analysis"]:::m3
+    M4["<b>04. How</b><br>Value-Added Bundles"]:::m4
 
-    M1 -->|Pinpoints Vulnerable Lifecycle Window| M2
-    M2 -->|Prioritizes High-Value Accounts to Defend| M3
-    M3 -->|Identifies Primary Defection Drivers| M4
-    M4 -->|Builds Product Switching Moats & Lowers Churn| M1
+    M1 --> M2 --> M3 --> M4
+    M4 -.->|Retention Loop| M1
+
+    click M1 "./01_customer_tenure_and_contract_churn" "Go to Module 1"
+    click M2 "./02_cltv_and_risk_scoring_matrix" "Go to Module 2"
+    click M3 "./03_churn_root_cause_analysis" "Go to Module 3"
+    click M4 "./04_value_added_services_retention" "Go to Module 4"
